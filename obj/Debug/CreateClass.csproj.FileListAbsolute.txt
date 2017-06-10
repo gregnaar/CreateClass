@@ -1,0 +1,6 @@
+E:\Projects\CreateClass\CreateClass\obj\Debug\CreateClass.csprojResolveAssemblyReference.cache
+E:\Projects\CreateClass\CreateClass\bin\Debug\CreateClass.exe.config
+E:\Projects\CreateClass\CreateClass\bin\Debug\CreateClass.exe
+E:\Projects\CreateClass\CreateClass\bin\Debug\CreateClass.pdb
+E:\Projects\CreateClass\CreateClass\obj\Debug\CreateClass.exe
+E:\Projects\CreateClass\CreateClass\obj\Debug\CreateClass.pdb
