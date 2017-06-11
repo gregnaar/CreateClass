@@ -14,7 +14,7 @@ namespace CreateClass
             me.BirthDate = DateTime.Parse("1987.11.16");
             me.Name = "Adam";
             me.Age =(DateTime.Now.DayOfYear >= me.BirthDate.DayOfYear) ? DateTime.Now.Year - me.BirthDate.Year : (DateTime.Now.Year - me.BirthDate.Year) - 1;
-            me.Gender = 0;
+            me.Gender = Perspn.Genders.Man;
             Console.WriteLine(me.ToString());
             
             Console.ReadLine();
@@ -25,8 +25,13 @@ namespace CreateClass
         public string Name { get; set; }
         public DateTime BirthDate { get; set; }
         public int Age { get; set; }
-        public Person.Genders Gender { get; set; }
-        public enum Genders {Man, Woman};
+        public Genders Gender { get; set; }
+        
+        public enum Genders 
+        {
+            Man, 
+            Woman
+        };
 
         public override string ToString()
         {
